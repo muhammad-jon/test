@@ -56,7 +56,7 @@ header .container button.header-btn {
 
 /* services styles */
 
-.services .container h1 {
+section .container > h1 {
   font-weight: 800;
   font-size: 64px;
   line-height: 96px;
@@ -122,4 +122,42 @@ header .container button.header-btn {
 }
 .about-us .btn {
   margin: 50px;
+}
+
+/* testimonials style  */
+
+.testimonals-boxes {
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+.testimonial-box {
+  flex-basis: calc(50% - 45px);
+  border: 1px solid #6cb981;
+  border-radius: 40px;
+  padding: 30px;
+  display: flex;
+  gap: 14px;
+}
+
+.testimonial-box img {
+  border-radius: 50%;
+}
+
+.testimonial-box h4 {
+  margin-bottom: 14px;
+  color: #6cb981;
+}
+.testimonial-box p {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0d4c14;
+}
+
+.testimonial-box .rank {
+  display: flex;
+  gap: 7.56px;
 }
