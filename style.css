@@ -98,3 +98,28 @@ header .container button.header-btn {
 .service-box h4 {
   margin-bottom: 10px;
 }
+
+/* about us styles */
+.about-us {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./images/header-bg.jpg");
+  padding-top: 154px;
+  text-align: center;
+}
+.about-us-boxes {
+  display: flex;
+  gap: 60px;
+}
+.about-us-boxes p {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+.about-us .btn {
+  margin: 50px;
+}
